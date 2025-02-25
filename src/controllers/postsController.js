@@ -1,10 +1,10 @@
-const User = require("../models/User");
-const UserList = require("../models/UserList");
-const lista = new UserList();
+const Post = require("../models/Post");
+const PostList = require("../models/PostList");
+const lista = new PostList();
 
-//Adicionando usuários iniciais
-lista.addUser(new User("maria", "maria@gmail.com", 20));
-lista.addUser(new User("luan", "luan@gmail.com", 25));
+//Adicionando posts iniciais
+lista.addPost(new Post("1945 mil", "", "amo as dev girls", "amigas bff forever, url", "07-03-2008 ));
+lista.addPost(new Post("luan", "luan@gmail.com", 25));
 
 
 const router = {
