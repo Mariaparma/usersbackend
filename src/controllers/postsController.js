@@ -3,8 +3,8 @@ const PostList = require("../models/PostList");
 const lista = new PostList();
 
 //Adicionando posts iniciais
-lista.addPost(new Post("1945 mil", "", "amo as dev girls", "amigas bff forever, url", "07-03-2008 ));
-lista.addPost(new Post("luan", "luan@gmail.com", 25))
+lista.addPost(new Post("1945 mil", "", "amo as dev girls")), "amigas bff forever, url", "07-03-2008 ));
+lista.addPost(new Post("luan", "luan@gmail.com", 25)),
 
 
 const router = {
